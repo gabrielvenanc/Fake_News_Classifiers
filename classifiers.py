@@ -22,7 +22,7 @@ from sklearn.metrics import auc
 import codecs
 
 
-path = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/validation.csv'
+path = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/processadas.csv'
 folder = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/dataToProcess'
 GLOVE_DIR = 'C:/Users/gabis/PycharmProjects/Glove/input/glove_s50.txt'
 
@@ -268,8 +268,6 @@ def draw_cv_roc_curve(model):
 
     X, y = get_base("")
     classifier = model
-
-
     k = 10
     cv = StratifiedKFold(n_splits=k)
     acc_score = []
@@ -282,9 +280,6 @@ def draw_cv_roc_curve(model):
         viz = plot_roc_curve(classifier, X[test], y[test],
                              name='ROC fold {}'.format(i),
                              alpha=0.3, lw=1, ax=ax)
-        print(mean_fpr)
-        print(viz.fpr)
-        print(viz.tpr)
         interp_tpr = np.interp(mean_fpr, viz.fpr, viz.tpr)
         interp_tpr[0] = 0.0
         tprs.append(interp_tpr)
