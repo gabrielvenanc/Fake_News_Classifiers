@@ -9,7 +9,7 @@ Como utilizar o projeto:
 Após clonar o repositório é necessário baixar o vetor de dimensão do glove no seguinte link :
 Selecionar a opção de 50 dimensões
 
-![image](https://user-images.githubusercontent.com/44040667/121757151-f9fdfa80-caf2-11eb-8a08-e290433c4ac9.png)
+![image](https://user-images.githubusercontent.com/44040667/121758114-71815900-caf6-11eb-9054-effbfbe829e1.png)
 
 Após o download do vocabulário do glove, no arquivo classifiers.py, editar as seguintes variáveis
 
