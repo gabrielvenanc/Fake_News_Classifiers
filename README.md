@@ -19,3 +19,6 @@ GLOVE_DIR: inserir o caminho onde se encontra o arquivo do vetor de dimensão do
 ![image](https://user-images.githubusercontent.com/44040667/121757264-611baf00-caf3-11eb-889c-b6c13e23896c.png)
 
 Para execução dos algoritimos utilizar a classe main para chamar os metodos exemplificados na propria main
+
+![image](https://user-images.githubusercontent.com/44040667/121757779-100cba80-caf5-11eb-91c0-2bd4cea0e47b.png)
+
