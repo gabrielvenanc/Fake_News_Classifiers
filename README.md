@@ -5,7 +5,9 @@ Ambiente python 3.9
 
 Como utilizar o projeto:
 Apos clonar o repositorio é necessario baixar o vetor de dimensão do glove no seguinte link : http://www.nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
+
 Selecionar a opção de 50 dimensões
+
 ![image](https://user-images.githubusercontent.com/44040667/121757151-f9fdfa80-caf2-11eb-8a08-e290433c4ac9.png)
 
 Apos o download do vocabulario do glove, no arquivo classifiers.py, editer as seguintes variaveis
