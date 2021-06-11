@@ -10,7 +10,8 @@ Selecionar a opção de 50 dimensões
 
 ![image](https://user-images.githubusercontent.com/44040667/121757151-f9fdfa80-caf2-11eb-8a08-e290433c4ac9.png)
 
-Apos o download do vocabulario do glove, no arquivo classifiers.py, editer as seguintes variaveis
+Apos o download do vocabulario do glove, no arquivo classifiers.py, editar as seguintes variaveis
+
 path: inserir o caminho do arquivo que esta na pasta input/processadas.csv 
 
 ![image](https://user-images.githubusercontent.com/44040667/121757264-611baf00-caf3-11eb-889c-b6c13e23896c.png)
