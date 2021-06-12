@@ -6,7 +6,7 @@ Ambiente python 3.9
 
 Como utilizar o projeto:
 
-Após clonar o repositório é necessário baixar o vetor de dimensão do glove no seguinte link : http://www.nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
+Após clonar o repositório é necessário baixar o vetor de dimensão do glove no seguinte link :
 Selecionar a opção de 50 dimensões
 
 ![image](https://user-images.githubusercontent.com/44040667/121758121-7e9e4800-caf6-11eb-9517-b115fd70c473.png)
@@ -17,7 +17,11 @@ path: inserir o caminho do arquivo que se encontra na pasta input/processadas.cs
 
 GLOVE_DIR: inserir o caminho onde se encontra o arquivo do vetor de dimensão do glove baixado anteriormente
 
-![image](https://user-images.githubusercontent.com/44040667/121758114-71815900-caf6-11eb-9054-effbfbe829e1.png)
+```
+path = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/processadas.csv'
+folder = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/dataToProcess'
+GLOVE_DIR = 'C:/Users/gabis/PycharmProjects/Glove/input/glove_s50.txt'
+```
 
 Para execução dos algoritmos utilizar a classe main para chamar os métodos exemplificados na própria main
 
