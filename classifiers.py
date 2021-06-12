@@ -22,9 +22,9 @@ from sklearn.metrics import auc
 import codecs
 
 
-path = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/processadas.csv'
-folder = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/dataToProcess'
-GLOVE_DIR = 'C:/Users/gabis/PycharmProjects/Glove/input/glove_s50.txt'
+path = '/input/processadas.csv'
+GLOVE_DIR = '/input/glove_s50.txt'
+folder = '/input/dataToProcess'
 
 def preProcess():
     #metodo utilizado apenas uma vez para pre processamento da base
@@ -58,7 +58,7 @@ def preProcess2():
 
 def ramdomizeBase():
     # metodo utilizado apenas uma vez para embaralhar a base
-    destin_folder = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/validation2.csv'
+    destin_folder = '/input/validation2.csv'
     with open(path, 'r', encoding='utf-8') as r, open(destin_folder, 'w', encoding='utf-8') as w:
         data = r.readlines()
         header, rows = data[0], data[1:]
