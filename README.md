@@ -20,9 +20,8 @@ path: inserir o caminho do arquivo que se encontra na pasta input/processadas.cs
 GLOVE_DIR: inserir o caminho onde se encontra o arquivo do vetor de dimensão do glove baixado anteriormente
 
 ```python
-path = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/processadas.csv'
-folder = 'C:/Users/gabis/Documents/tcc/Fake_News_Ckassifiers/input/dataToProcess'
-GLOVE_DIR = 'C:/Users/gabis/PycharmProjects/Glove/input/glove_s50.txt'
+path = '/input/processadas.csv'
+GLOVE_DIR = '/input/glove_s50.txt'
 ```
 
 Para execução dos algoritmos utilizar a classe main para chamar os métodos exemplificados na própria main
