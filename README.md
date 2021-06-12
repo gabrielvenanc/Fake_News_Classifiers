@@ -24,5 +24,15 @@ GLOVE_DIR = 'C:/Users/gabis/PycharmProjects/Glove/input/glove_s50.txt'
 ```
 
 Para execução dos algoritmos utilizar a classe main para chamar os métodos exemplificados na própria main
-
-![image](https://user-images.githubusercontent.com/44040667/121757779-100cba80-caf5-11eb-91c0-2bd4cea0e47b.png)
+```
+#metodos svm
+classifiers.svm()
+classifiers.svmCross()
+classifiers.svm_all_validations()
+#metodos naive bayes
+classifiers.naive_bayes()
+classifiers.naive_bayesCross()
+classifiers.naive_bayes_all_validations()
+#metodo glove
+classifiers.glove()
+```
