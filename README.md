@@ -6,7 +6,7 @@ Ambiente python 3.9
 
 Como utilizar o projeto:
 
-Após clonar o repositório é necessário baixar o vetor de dimensão do glove no seguinte link :
+Após clonar o repositório é necessário baixar o vetor de dimensão do glove no seguinte link : http://www.nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
 Selecionar a opção de 50 dimensões
 
 ![image](https://user-images.githubusercontent.com/44040667/121758121-7e9e4800-caf6-11eb-9517-b115fd70c473.png)
