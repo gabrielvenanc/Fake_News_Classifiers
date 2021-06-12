@@ -1,4 +1,4 @@
-# Fake_News_Ckassifiers
+# Fake_News_Classifiers
 TCC de analise de algoritmos de machine learning e NLP para detecção de fakeNews
 
 Ambiente python 3.9
